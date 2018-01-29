@@ -1,0 +1,160 @@
+/*      background: #fff; color: #black; */ 
+body {
+     
+     font-family: Helvetica,Arial,sans-serif;
+     font-size: 13pt;
+     margin-top: 3%;
+     margin-bottom: 8%;
+     background: #fbfbfb;
+     color: #black;
+     margin-left: 2%; margin-right: 2%;
+}
+
+
+h1 { 
+   font-size: 18pt;
+   color: #ea8400; 
+   padding-top: 1em;
+   text-align: left;
+   border-bottom: 2px solid #aaa;
+   font-weight:normal;
+}
+
+h2 {
+   font-size: 16pt;
+   padding-top: 1em;
+   border-bottom: 1px solid #ccc;
+   font-weight:normal
+}
+
+h3 {
+   font-weight:normal;
+   font-size: 14pt; 
+   padding-top: 0.5em;
+   border-bottom: 1px solid #eee;
+}
+
+.todo, .deadline { color: red; }
+.done { color: green; }
+
+
+.tag {text-align: right; color: blue;}
+.timestamp {padding-left: 2px; padding-right: 2px; color: black;}
+background-color: #ccc; border: solid 1px #aaa;}
+
+/* h1.title { text-align: center; } funzt so nicht wirklich gut */ 
+
+.target { background-color: lavender; }
+
+.title { text-align: left; }
+
+#content p {
+    float: right; 
+    width: 15%;
+    height: 500px;
+
+}
+
+#content p img {
+    width: 100%
+}
+
+.menu {
+
+    color: #666;
+    text-align: left;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #aaa;
+    border-top: 2px solid #aaa;
+}
+
+.menu a:link {
+      display: inline-block;
+      color: #888;
+      background-color: #eee;
+      margin-left: 7%
+}
+.menu a:active { 
+      color: #888;
+      background-color: #333;
+}
+.menu a:visited { 
+      color: #888;
+}
+
+.menu a:hover {
+    color: #225;
+    background-color: #ececff
+}
+
+.submenu {
+    margin-top: 0.5em;
+    border-top: 1px solid #888;
+    padding-top: 0.5em;
+    color: #666;
+    text-align: center;
+}
+
+.submenu a:link {
+    color: #888;
+}
+
+.submenu a:active {
+    color: #888; 
+}
+
+.submenu a:visited {
+    color: #888;
+}
+
+/*      color: #8b6508; */ 
+
+a:link { 
+    #color: #d3910b;
+    color: green;
+    
+}
+a:active { 
+      color: #d3910b;
+}
+a:visited { 
+      color: #d3910b;
+}
+
+img { align: center; }
+
+pre {
+	border: 1pt solid #aaaaaa;
+	color: black; 
+	background-color: #fafafa;
+	padding: 5pt;
+	font-family: courier, monospace;
+	font-size: 9pt;
+}
+
+table { border: 0px; border-collapse: collapse; }
+
+td, th {
+	vertical-align: top;
+	border: 0px;
+}
+
+#postamble {
+    border-top: 1px solid #aaaaaa;
+    text-align: center;
+    font-size: 10pt; 
+    color: #aaaaaa;
+}
+
+#table-of-contents {
+    float: left;
+    width: 20%;
+    height: 1500px;
+    background-color: #9999ff;
+    border: 3px solid silver;
+}
+
+.outline-2 {
+    margin-left: 20%; margin-right: 15%;
+#    border: 1px dashed silver;
+}
